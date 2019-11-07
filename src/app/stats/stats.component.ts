@@ -12,7 +12,11 @@ export class StatsComponent implements OnInit {
   nearbyPlaces = JSON.parse(localStorage.getItem('allUserNearbyPlaces'));
   public stats = null;
 
-  constructor(private trips: TripsService, private navBar: NavbarService) {}
+  constructor(private trips: TripsService, private navBar: NavbarService) {
+    if (!this.userId) {
+      this.router.navigate(['/']);
+    }
+  }
 
   ngOnInit() {
     this.navBar.updateTitle('Stats');
