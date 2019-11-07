@@ -1,7 +1,7 @@
 # YourNextStop
 The travel app to end all travel apps! Your Next Stop will allow users to create unique routes + customize their trip spontaneously. Whether you want to plan your trip on our desktop app or take it with our mobile version, this app is meant to be used as much as you want it and no more. 
 
-https://yournextstop-app.tk
+http://www.yournextstop.fun/
 
 ## Getting Started
 
