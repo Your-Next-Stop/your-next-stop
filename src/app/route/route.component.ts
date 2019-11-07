@@ -62,9 +62,12 @@ export class RouteComponent implements OnInit, OnDestroy {
     private route: RouteService,
     private router: PreviousRouteService,
     private navBar: NavbarService
-  ) {}
+  ) {
+    if (!this.currentUser) {
+      this.router.navigate(['/']);
+    }   
+  }
   
-
   ngOnInit() {
     this.navBar.updateTitle('Route');
     const previousPage = this.router.getPreviousUrl();
