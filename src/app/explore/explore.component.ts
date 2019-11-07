@@ -36,6 +36,9 @@ export class ExploreComponent implements OnInit {
       localStorage.setItem('userId', userId);
       window.location.reload();
     }
+    if (!this.currentUser) {
+      this.router.navigate(['/']);
+    }
     this.updateNavbar();
   }
 
