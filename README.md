@@ -4,14 +4,36 @@ The travel app to end all travel apps! Your Next Stop will allow users to create
 http://www.yournextstop.fun/
 
 ## Getting Started
+These instructions will allow you to get a copy of this project running on your local machine.
 
 ### Prerequisites
+Before starting, ensure you have met the following requirements:
 
+You have installed the latest version of npm and node. If not, follow the instructions from this link:
+`https://www.npmjs.com/get-npm`
+You have installed PostgreSQL on your local machine. If not, you can install it golbally by running the following command:
+`npm install -g pg`
+
+Fork this repository and clone it to your local machine.
+
+There are two repos inside this folder: your-next-stop (client-side repo) and Back-End (server-side repo). Inside each of these run the followwing to install dependencies:
 `npm install`
 
-## Development server
+Cd into the your-next-stop directory and run the following command to run the client:
+`npm start`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Development server
+In order to start the server, you will need PostgreSQL installed on your machine and a .env file with appropriate variables:
+
+DATABASE = 'yournextstop'
+USER_NAME = whatever username you use to access PostgreSQL
+USER_PASSWORD = whatever passport you use to access PostgreSQL
+HOST = 'localhost'
+PORT = 5432
+GOOGLE_MAPS_API_KEY= API key you recieve from Google Maps API Platform. (You can get one here: https://developers.google.com/maps/documentation/directions/get-api-key)
+FRONTEND_BASE_URL=http://localhost:4200 (This is used to connect to your client. Can be changed to client-repo deployed URL for production.)
+
+Run `ng serve` to start the dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -24,9 +46,11 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Built With
 
 * [Angular 8 + Angular CLI](https://angular.io/cli) - The web framework used
-* [Node.js](https://nodejs.org/en/docs/)
-* [Express](https://expressjs.com/en/api.html)
 * [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) - Front end design
+* [Node.js](https://nodejs.org/en/docs/) - Server-side runtime environment
+* [Express](https://expressjs.com/en/api.html) - Server-side framework 
+* [PostgreSQL](https://expressjs.com/en/api.html) - RDBMS
+* [Passport.js](http://www.passportjs.org/packages/passport-google-oauth2/) - Authentication using Google Sign-In Strategy
 
 ## Running unit tests
 
@@ -38,10 +62,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Authors
 
-* **Raphael Khan** - *Scrum Master*
-* **Samantha De La Fuente** - *Back End*
-* **Gary Marino Jr.** - *Front End*
-* **David Polk** - *Front End*
+* **Raphael Khan** - *Scrum Master/Back-End*
+* **Samantha De La Fuente** - *Back-End*
+* **Gary Marino Jr.** - *Front-End*
+* **David Polk** - *Front-End*
 
 ## License
 
