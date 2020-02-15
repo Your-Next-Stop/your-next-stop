@@ -3,6 +3,8 @@ The travel app to end all travel apps! Your Next Stop will allow users to create
 
 http://www.yournextstop.fun/
 
+<img align="left" title="Filter places by category to find local interests catered towards you." src="https://rkportfolio-stuff.s3.amazonaws.com/Your+Next+Stop/explore+page.JPG" height="370" width="285"><img align="center" title="See details about places that intrigue you." src="https://rkportfolio-stuff.s3.amazonaws.com/Your+Next+Stop/details+page.JPG" height="370" width="285"><img align="right" title="Plan a road trip and see interesing places along the way." src="https://rkportfolio-stuff.s3.amazonaws.com/Your+Next+Stop/route+page.JPG" height="370" width="260">
+
 ## Getting Started
 These instructions will allow you to get a copy of this project running on your local machine.
 
