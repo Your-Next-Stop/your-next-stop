@@ -27,13 +27,13 @@ Cd into the your-next-stop directory and run the following command to run the cl
 ## Development server
 In order to start the server, you will need PostgreSQL installed on your machine and a .env file with appropriate variables:
 
-DATABASE = 'yournextstop'
-USER_NAME = whatever username you use to access PostgreSQL
-USER_PASSWORD = whatever passport you use to access PostgreSQL
-HOST = 'localhost'
-PORT = 5432
-GOOGLE_MAPS_API_KEY= API key you recieve from Google Maps API Platform. (You can get one here: https://developers.google.com/maps/documentation/directions/get-api-key)
-FRONTEND_BASE_URL=http://localhost:4200 (This is used to connect to your client. Can be changed to client-repo deployed URL for production.)
++ DATABASE = 'yournextstop'
++ USER_NAME = whatever username you use to access PostgreSQL
++ USER_PASSWORD = whatever passport you use to access PostgreSQL
++ HOST = 'localhost'
++ PORT = 5432
++ GOOGLE_MAPS_API_KEY= API key you recieve from Google Maps API Platform. (You can get one here: https://developers.google.com/maps/documentation/directions/get-api-key)
++ FRONTEND_BASE_URL=http://localhost:4200 (This is used to connect to your client. Can be changed to client-repo deployed URL for production.)
 
 Run `ng serve` to start the dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
