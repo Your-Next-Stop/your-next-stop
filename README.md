@@ -16,9 +16,9 @@ You have installed the latest version of npm and node. If not, follow the instru
 You have installed PostgreSQL on your local machine. If not, you can install it golbally by running the following command:
 `npm install -g pg`
 
-Fork this repository and clone it to your local machine.
+Fork this repository as well as the Back-End repo and clone them to your local machine.
 
-There are two repos inside this folder: your-next-stop (client-side repo) and Back-End (server-side repo). Inside each of these run the followwing to install dependencies:
+your-next-stop is the client-side repo while Back-End is the server-side one. Inside each of these run the followwing to install dependencies:
 `npm install`
 
 Cd into the your-next-stop directory and run the following command to run the client:
