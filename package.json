@@ -38,7 +38,7 @@
     "igniteui-angular-core": "^8.0.0",
     "igniteui-angular-maps": "^8.0.0",
     "jquery": "^3.5.0",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.2",
     "jszip": "^3.2.2",
     "lodash": "^4.17.15",
     "minireset.css": "~0.0.5",
